@@ -2,6 +2,8 @@
 
 Here is little test for that app
 
+# basic call to test server
+address: http://82.37.8.181:5000
 
 # Adding product to DB
 address: http://82.37.8.181:5000/product
