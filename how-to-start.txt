@@ -1,0 +1,23 @@
+$ pip3 install pipenv  // if you have python3
+$ pip install pipenv  // for puthon 2
+
+to start service , in app dir run
+$ sudo pipenv shell
+
+$ sudo pip install // if you have Pipfile with dependencies
+	if not :
+	
+$ pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy
+
+if you don't have database yet
+
+$ python
+>> from app import db
+>> db.create_all()
+>> exit()
+
+then run app
+
+$ python app.py
+ or
+$ python3 app.py
